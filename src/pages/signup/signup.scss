@@ -1,4 +1,4 @@
-page-login {
+page-signup {
     .primary {
         color: white;
         // background: map-get($colors, primary);
@@ -12,6 +12,12 @@ page-login {
     }
     .loginWrapper {
         padding-top: 4px;
+    }
+    .item-input .label-md {
+        color: white;
+    }
+    .item-input-has-focus .label-md {
+        color: map-get($colors, secondary) !important;
     }
     .item-input {
         background-color: transparent;
@@ -31,9 +37,9 @@ page-login {
         text-align: center;
     }
     #signUp {
-        color: map-get($colors, secondary)
+        color: map-get($colors, secondary);
     }
-    .loginError p{
+    .signupError p{
         color: map-get($colors, warning);
     }
 }

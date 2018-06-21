@@ -1,0 +1,54 @@
+<!--
+  Generated template for the WelcomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding class="primary">
+  <div class="topLogo">
+    <img src="../../assets/imgs/lionheart-sym.png" />
+    <ion-label id="signUp" (click)="signOut()">Sign Out</ion-label>
+  </div>
+  <ion-footer no-shadow>
+    <ion-toolbar padding position="bottom">
+      <button ion-button full (click)="googleLogin()">
+        <ion-item>
+          <ion-row>
+            <ion-col col-1>
+              <!-- <ion-icon name="logo-google"></ion-icon> -->
+              <img src="../../assets/imgs/google-icon.png" />
+            </ion-col>
+            <ion-col class="columnLabel">
+              Continue with Google
+            </ion-col>
+          </ion-row>     
+        </ion-item>
+      </button>
+      <button ion-button full (click)="facebookLogin()">
+        <ion-item>
+          <ion-row>
+            <ion-col col-1>
+              <!-- <ion-icon name="logo-facebook"></ion-icon> -->
+              <img src="../../assets/imgs/facebook-icon.png" />
+            </ion-col>
+            <ion-col class="columnLabel">
+              Continue with Facebook
+            </ion-col>
+          </ion-row>     
+        </ion-item>
+      </button>
+      <button ion-button full outline (click)="emailLogin()">
+        <ion-item>
+          <ion-row>
+            <ion-col col-1>
+              <ion-icon name="mail"></ion-icon>
+            </ion-col>
+            <ion-col class="columnLabel">
+              Continue with Email
+            </ion-col>
+          </ion-row>     
+        </ion-item>
+      </button>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>

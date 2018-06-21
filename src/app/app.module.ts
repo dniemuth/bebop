@@ -8,6 +8,9 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { LoginPage } from '../pages/login/login';
+import { SignUpPage } from '../pages/signup/signup';
+import { WelcomePage } from '../pages/welcome/welcome';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,7 +27,9 @@ import { firebaseConfig } from '../environment';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    SignUpPage,
+    WelcomePage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +45,9 @@ import { firebaseConfig } from '../environment';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    SignUpPage,
+    WelcomePage
   ],
   providers: [
     StatusBar,

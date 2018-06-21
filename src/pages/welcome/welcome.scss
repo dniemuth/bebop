@@ -1,0 +1,44 @@
+page-welcome {
+    ion-content.primary {
+        color: white;
+        background: linear-gradient(to right, map-get($colors, primary), map-get($colors, primary-light));
+    }
+    ion-toolbar.toolbar.toolbar-md {
+        padding: 30px;
+    }
+    .toolbar-background {
+        background: transparent;
+    }
+    .topLogo {
+        padding: 40px;
+    }
+    .button-full.button-full-md {
+        margin-top: 15px;
+        padding: 0;
+    }
+    .button-full.button-outline {
+        border-color: white;
+        border-right-width: 1px;
+        border-left-width: 1px;
+    }
+    .button-outline .item-md {
+        background: transparent;
+        color: white;
+    }
+    .button ion-item, .button ion-item.item-md.item-block .item-inner, .button ion-item .label {
+        padding-left: 2px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    [col-1] {
+        padding: 4px;
+    }
+    [col-1] img {
+        vertical-align: middle;
+    }
+    .columnLabel {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
